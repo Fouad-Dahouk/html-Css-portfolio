@@ -1,0 +1,73 @@
+
+    .flex{
+      margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  color: white;
+background-color:lightgray;
+}
+.flex-1{
+    margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+height: 100px;
+color: white;
+background-color:lightgray;
+}
+.grid{
+ display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+gap:35px;
+}
+.img{
+    border-radius: 50%;
+}
+hr{
+    width: 5%;
+    border: 2px dotted #b4b6b6;
+    margin: 50px auto;
+}
+.skill-hobby{
+    text-align: center;
+}
+.skill-grid{
+    display: grid;
+   grid-template-columns: 0.7fr 1.3fr;
+   grid-template-rows: 1fr,1fr;
+   gap:35px;
+   }
+   .f-img{
+    display: flex;
+    justify-content: flex-end;
+   }
+.skill-grid p{
+    width: 60%;
+}
+.f-text{
+    padding-top: 35px;
+}
+
+.f-img img{
+    border-radius: 50%;
+}
+.grid-1{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100px 100px 50px;
+}
+svg{
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  #footer{
+    margin-top: 40px;
+  }
