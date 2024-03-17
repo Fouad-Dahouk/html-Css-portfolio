@@ -71,3 +71,19 @@ svg{
   #footer{
     margin-top: 40px;
   }
+  @media (min-width:0px) and (max-width:768px){
+    .grid{
+        display: block;
+    
+       }
+    .grid-div-1{
+        grid-area: 2/1/2/2;
+    }
+    .grid-div-2{
+        grid-area: 1/1/1/2;
+    }
+    .small-img{
+        height: 200px;
+        width: 100%;
+    }
+  }
