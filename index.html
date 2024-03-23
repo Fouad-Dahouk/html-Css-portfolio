@@ -1,93 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
-    <title>Resume</title>
-    <style>
-        .sp-font{font-family: "Edu SA Beginner", cursive;
-        font-size:48pt;
-       padding: 0;
-       margin: 0;
-      ;}
-     
-    </style>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
+
 <body>
-    <div class="flex">
-        <div class="grid">
-          <div ><img class="small-img" src="./images/background.jpg" alt=" web dev desc" height="300px"></div>  
-        <div >
-            <h1 class="sp-font">I'm Fouad</h1>
-            <h2> A Programmer</h2>
-        </div>
-       </div>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
     </div>
-    <hr/>
-    <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4 img" src="./images/ProfilePic.jpg" alt="Picture of me" width="200" height="200">
-        <h1 class="display-5 fw-bold text-body-emphasis">Hello World</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Undergraduate, driven and motivated individual with a strong passion for
-            computer science, constantly seeking out opportunities to expand knowledge
-            and experience in the field, with the ability to learn new technologies and
-            concepts. An individual who is eager to continue growing as a computer science
-            professional and excited for the opportunity to bring skill and expertise to new
-            challenges and projects.</p>
-        </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
       </div>
-      <hr />
-      <h1 class="skill-hobby"> My skills</h1>
-      
-      <div class="container">
-        <div class="skill-grid">
-            <div class="f-img"> <img src="./images/html.png" alt="html logo"></div>
-            <div class="f-text">
-                <h3>HTML</h3>
-                <p> I started learning HTML since I was 18, I wanted to create beautiful website and the was my first step as a web dev</p>
-            </div>
-            <div  class="f-img"><img src="./images/css.png" alt="css logo"></div>
-            <div class="f-text">
-                <h3>CSS</h3>
-                <p> After learn HTML it was a not brainer learning Css, styling a website is one of the most important skill to build a smooth webpage </p>
-            </div>
-        </div>
-      </div>
-      <hr />
-      <h1 class="skill-hobby"> My Hobbies</h1>
-      
-      <div class="container">
-        <div class="skill-grid">
-            <div class="f-img"> <img src="./images/chess.png" alt="chess knight" height="200" width="200"></div>
-            <div class="f-text">
-                <h3>Chess</h3>
-                <p> I started Playing chess from a young age, chess requires a lot of strategie thinking.</p>
-            </div>
-            <div  class="f-img"><img src="./images/football.jpeg" alt="football game" height="200" width=200"></div>
-            <div class="f-text">
-                <h3>Football</h3>
-                <p> As a kid who loved Sport Football was my go to,try to outrun me</p>
-            </div>
-        </div>
+      <div type="button" id="blue" class="btn blue">
+
       </div>
 
-     <footer id="footer">
-        <div class="flex-1">
-           <div class="grid-1">
-            <div> &copy Fouad</div>
-            <div> <a href="https://www.linkedin.com/in/fouad-dahouk-867187250/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-              </svg></a></div>
-            <div><a href="./Fouad dahouk.pdf" dowload>My CV</a></div>
-           </div>
+    </div>
 
-        </div>
-     </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./game.js"></script>
 </body>
+
 </html>
